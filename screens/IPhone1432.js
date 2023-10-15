@@ -118,6 +118,8 @@ const [userId, setUserId] = useState(null);
         //     phones,
         //     sharedSelectedMessage + `The deadline is ${deadlineDate.toLocaleDateString()}. The link to contribute here: https://givebundl.com/contribute/1233453`
         // );
+
+        
         
 
         navigation.navigate("IPhone1427")
