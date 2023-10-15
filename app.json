@@ -2,7 +2,7 @@
   "expo": {
     "name": "bundl-mobile-app",
     "slug": "bundl-mobile-app",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,7 +18,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dcgleason.bundlmobileapp",
+      "infoPlist": {
+        "NSCameraUsageDescription": "We need access to your camera to allow you to take photos."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +32,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e3e37d99-2689-4bbd-96a4-8599282e6647"
+      }
     }
   }
 }
